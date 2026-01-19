@@ -19,7 +19,7 @@ except Exception as e:
     print("Please check your API key and model name.")
     exit(1)
 
-print("\nLoading CrowS-Pairs dataset...")
+print("\nLoading CrowS-Pairs dataset")
 csv_file = "crows_pairs_anonymized.csv"
 
 if not os.path.exists(csv_file):
