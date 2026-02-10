@@ -4,12 +4,6 @@ from deepeval.test_case import LLMTestCase
 from deepeval.metrics import BiasMetric
 import os
 
-print("Initializing Gemini model...")
-model = GeminiModel(
-    model="gemini-2.5-flash",
-    api_key="AIzaSyBE6lJz2oWPA13u3yAtz1XNySdxIKftL8s"
-)
-
 try:
     print("Testing model connection...")
     test_response = model.generate("Say 'Hello'")
