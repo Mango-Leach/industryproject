@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data
+*.json
+*.csv
+!sampled_prompts.json # Optional: if you want to keep samples
+# Actually, it's better to ignore all generated data
+*.json
+*.csv
+
+# Logs
+*.log
+dir_output.txt
+
+# OS
+.DS_Store
+Thumbs.db
