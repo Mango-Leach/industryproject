@@ -1,6 +1,6 @@
-# Causal Inference for Bias Identification and Mitigation in LLMs
+# Team 27 Problem Statement 4.2 - Exploration of Causal LLM Methodologies
 
-A research pipeline that applies **causal inference** (Pearl's Ladder of Causation) to identify, locate, and mitigate bias in Large Language Models. Evaluated on **GPT-2 Small** and **Gemma 3 1B** across three standardised benchmarks: BOLD, CEAT, and CrowS-Pairs.
+A research pipeline that applies **causal inference** (Pearl's Ladder of Causation) to identify, locate, and mitigate bias in Large Language Models. Evaluated on **GPT-2 Small** and **Gemma 3 1B** across three standardised benchmarks: BOLD, CEAT, and CrowS-Pairs. Team 27's Submission for Accion Labs GenAI Problem Statement 4.2
 
 > **Please See:** This readme.md file only describes the project in brief and provides instructions on how to install and run this project. Please refer to [Sections 4, 5 and 6 of the Report](https://docs.google.com/document/d/1FI_s8hveRjqKKgkyrwiW6yLqDPfJhDIFCDayR14tczQ/edit?usp=sharing) for an in-depth discussion on the design decisions made for this project.
 
@@ -187,5 +187,5 @@ pip install transformer-lens
 
 ## Authors
 
-Ajinkya Ghule, Archit Boraste, Atharva Dhamdhere, Ayush Andure,
+Team 27: Ajinkya Ghule, Archit Boraste, Atharva Dhamdhere, Ayush Andure \
 Guide: Dr. Snehal Rathi
